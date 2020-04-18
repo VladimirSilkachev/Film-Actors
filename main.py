@@ -1,7 +1,6 @@
 dict_films = dict()
-dict_actors = dict()
 
-choose = input('Искать будете по \n'
+choose = input('Поиск по: \n'
                '1 фильмам; \n'
                '2 актерам. ')
 val1, val2 = map(str, input('Введите данные через запятую.').split(', '))
